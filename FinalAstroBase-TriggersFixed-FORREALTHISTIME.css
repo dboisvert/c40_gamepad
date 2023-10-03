@@ -8,7 +8,7 @@
 }
 
 .ds4.disconnected {
-    background: url(https://gamepadviewer.com/ps4-assets/disconnected.svg);
+    background: url(ps4-assets/disconnected.svg);
 }
 
 .ds4.disconnected div {
@@ -82,7 +82,7 @@
 }
 
 .ds4 .touchpad.pressed {
-    background: url(https://gamepadviewer.com/ps4-assets/touchpad.svg) no-repeat center;
+    background: url(ps4-assets/touchpad.svg) no-repeat center;
 }
 
 .ds4 .meta {
@@ -169,7 +169,7 @@ background-position: 0 -70px;
     position: absolute;
     width: 55px;
     height: 55px;
-    background: url(https://gamepadviewer.com/ps4-assets/face.svg);
+    background: url(ps4-assets/face.svg);
 }
 
 .ds4 .button.pressed {
@@ -210,7 +210,7 @@ background-position: 0 -70px;
 
 .ds4 .stick {
     position: absolute;
-    background: url(https://gamepadviewer.com/ps4-assets/sticks.svg);
+    background: url(ps4-assets/sticks.svg);
     height: 94px;
     width: 94px;
 }
@@ -242,7 +242,7 @@ background-position: 0 -70px;
 }
 
 .ds4 .face {
-    background: url(https://gamepadviewer.com/ps4-assets/dpad.svg);
+    background: url(ps4-assets/dpad.svg);
     position: absolute;
 }
 
