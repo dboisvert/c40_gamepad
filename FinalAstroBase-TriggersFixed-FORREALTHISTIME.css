@@ -1,6 +1,6 @@
 /*BEGIN PS4 Controller Styling*/
 .controller.ds4 {
-    background: url(https://i.ibb.co/S0M18yR/base.png);
+    background: url(ps4-assets/base.png);
     height: 668px;
     width: 797px;
     /*    margin-left: -403px;
@@ -9,7 +9,7 @@
 }
 
 .ds4.disconnected {
-    background: url(ps4-assets/disconnected.svg);
+    background: url(https://gamepadviewer.com/ps4-assets/disconnected.svg);
 }
 
 .ds4.disconnected div {
@@ -27,7 +27,7 @@
 .ds4 .trigger {
     width: 115px;
     height: 114px;
-    background: url(https://i.ibb.co/fMmL1Z1/triggers.png);
+    background: url(ps4-assets/triggers.png);
     opacity: 0;
 }
 
@@ -45,7 +45,7 @@
 .ds4 .bumper {
     width: 139px;
     height: 62px;
-    background: url(https://i.ibb.co/4jcq7CS/bumper.png) no-repeat;
+    background: url(ps4-assets/bumper.png) no-repeat;
     opacity: 0;
 }
 
@@ -96,7 +96,7 @@
 }
 
 .ds4 .meta.pressed {
-    background: url(https://i.ibb.co/3rMDMjZ/meta.png) no-repeat center;
+    background: url(ps4-assets/meta.png) no-repeat center;
 }
 
 /*Not needed, but I like keeping them here for posterity*/
@@ -130,7 +130,7 @@ background-position: 0 -70px;
 }
 
 .ds4 .back, .ds4 .start {
-    background: url(https://i.ibb.co/CQPmkh3/start.png);
+    background: url(ps4-assets/start.png);
     width: 21px;
     height: 40px;
     opacity: 0;
