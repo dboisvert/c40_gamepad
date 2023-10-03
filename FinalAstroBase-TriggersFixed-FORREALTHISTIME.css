@@ -5,6 +5,7 @@
     width: 797px;
     /*    margin-left: -403px;
         margin-top: -280px;*/
+    z-index: 0;
 }
 
 .ds4.disconnected {
@@ -91,6 +92,7 @@
     position: absolute;
     left: 370px;
     bottom: 250px;
+    z-index: 1;
 }
 
 .ds4 .meta.pressed {
@@ -124,6 +126,7 @@ background-position: 0 -70px;
     height: 46px;
     top: 142px;
     left: 227px;
+    z-index: 1;
 }
 
 .ds4 .back, .ds4 .start {
@@ -131,6 +134,7 @@ background-position: 0 -70px;
     width: 21px;
     height: 40px;
     opacity: 0;
+    z-index: 1;
 }
 
 .ds4 .back.pressed, .ds4 .start.pressed {
@@ -163,6 +167,7 @@ background-position: 0 -70px;
     height: 171px;
     top: 228px;
     left: 567px;
+    z-index: 1;
 }
 
 .ds4 .button {
@@ -170,6 +175,7 @@ background-position: 0 -70px;
     width: 55px;
     height: 55px;
     background: url(ps4-assets/face.svg);
+    z-index: 1;
 }
 
 .ds4 .button.pressed {
@@ -181,23 +187,27 @@ background-position: 0 -70px;
     background-position: 0 0;
     bottom: 62px;
     left: 54px;
+    z-index: 1;
 }
 
 .ds4 .b {
     background-position: -57px 0;
     top: 2px;
     right: 9px;
+    z-index: 1;
 }
 
 .ds4 .x {
     background-position: -112px 0;
     top: 0px;
+    z-index: 1;
 }
 
 .ds4 .y {
     background-position: 55px 0;
     left: 54px;
     top: -50px;
+    z-index: 1;
 }
 
 .ds4 .sticks {
@@ -206,6 +216,7 @@ background-position: 0 -70px;
     height: 105px;
     top: 311px;
     left: 228px;
+    z-index: 1;
 }
 
 .ds4 .stick {
@@ -213,14 +224,17 @@ background-position: 0 -70px;
     background: url(ps4-assets/sticks.svg);
     height: 94px;
     width: 94px;
+    z-index: 1;
 }
 
 .ds4 .stick.pressed.left {
     background-position-x: -96px;
+    z-index: 1;
 }
 
 .ds4 .stick.pressed.right {
     background-position-x: -192px;
+    z-index: 1;
 }
 
 .ds4 .stick.left {
@@ -239,11 +253,13 @@ background-position: 0 -70px;
     height: 126px;
     top: 193px;
     left: 86px;
+    z-index: 1;
 }
 
 .ds4 .face {
     background: url(ps4-assets/dpad.svg);
     position: absolute;
+    z-index: 1;
 }
 
 .ds4 .face.up, .ds4 .face.down {
